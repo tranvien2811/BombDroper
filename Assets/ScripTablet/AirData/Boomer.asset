@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f9232669b4cdfc64c8c90626d07bd02c, type: 3}
+  m_Name: Boomer
+  m_EditorClassIdentifier: 
+  airDatas:
+  - Name: Boomer
+    Describe: 
+    ID: A1
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 0
+  - Name: Apache
+    Describe: 
+    ID: A2
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 1
+  - Name: Jetfire
+    Describe: 
+    ID: A3
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 1
+  - Name: War Machine
+    Describe: 
+    ID: A4
+    Heath: 5
+    Speed: 2
+    numBuildAds: 1
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 3
+  - Name: Stingray
+    Describe: 
+    ID: A5
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 0
+    numRandomUnlock: 8
+    typeBuild: 1
+  - Name: Blackout
+    Describe: 
+    ID: A6
+    Heath: 5
+    Speed: 2
+    numBuildAds: 1
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 2
+  - Name: Spaceship
+    Describe: 
+    ID: A7
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 1
+  - Name: Swan
+    Describe: 
+    ID: A8
+    Heath: 5
+    Speed: 2
+    numBuildAds: 0
+    numLevelUnlock: 13
+    numRandomUnlock: 0
+    typeBuild: 3
+  - Name: Starscream
+    Describe: 
+    ID: A9
+    Heath: 5
+    Speed: 2
+    numBuildAds: 1
+    numLevelUnlock: 20
+    numRandomUnlock: 0
+    typeBuild: 3
+  - Name: Night Fury
+    Describe: 
+    ID: A10
+    Heath: 5
+    Speed: 2
+    numBuildAds: 2
+    numLevelUnlock: 0
+    numRandomUnlock: 0
+    typeBuild: 2

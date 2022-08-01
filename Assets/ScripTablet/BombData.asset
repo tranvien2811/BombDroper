@@ -1,0 +1,111 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbf04b12d27572b408669547bfd9c6d3, type: 3}
+  m_Name: BombData
+  m_EditorClassIdentifier: 
+  bombInfos:
+  - Name: POP
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 0
+    Range: 0
+    DamageBomb: 0
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 0
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 0
+    typeBuyBomb: 0
+    numBuyAds: 0
+    miniBombType: 0
+  - Name: BIG BOY
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 3
+    Range: 1
+    DamageBomb: 5
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 2
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 1
+    typeBuyBomb: 1
+    numBuyAds: 0
+    miniBombType: 1
+  - Name: INEVITABLE
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 0
+    Range: 0
+    DamageBomb: 0
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 0
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 2
+    typeBuyBomb: 2
+    numBuyAds: 2
+    miniBombType: 1
+  - Name: SAVAGE
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 0
+    Range: 0
+    DamageBomb: 0
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 0
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 3
+    typeBuyBomb: 1
+    numBuyAds: 0
+    miniBombType: 1
+  - Name: AIR STRIKE
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 0
+    Range: 0
+    DamageBomb: 0
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 0
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 4
+    typeBuyBomb: 1
+    numBuyAds: 0
+    miniBombType: 0
+  - Name: BUBBLE
+    icon2DUi: {fileID: 0}
+    Describle: 
+    ID: 0
+    TimeCoundown: 0
+    TimeExplosionRate: 0
+    Range: 0
+    DamageBomb: 0
+    MiniBomb: {fileID: 0}
+    NumExplosion: 0
+    NumJumpBomb: 0
+    prefabsBombMini: {fileID: 0}
+    typeBomb: 5
+    typeBuyBomb: 1
+    numBuyAds: 0
+    miniBombType: 0
