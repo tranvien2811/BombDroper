@@ -123,20 +123,24 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -7511558181221131132, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
+      propertyPath: m_ReceiveShadows
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -7511558181221131132, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: a98235c5893a7dd4a86606da7f21b18b, type: 2}
     - target: {fileID: -5754084199372789682, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
       propertyPath: m_Mesh
       value: 
-      objectReference: {fileID: 1794934065383156721, guid: 0d4664c229f22164ba8ba0887c2d890b, type: 3}
+      objectReference: {fileID: -8268693768041906735, guid: 9f7b6cd26b5e4cee872e2e7f291ecd8f, type: 3}
     - target: {fileID: 919132149155446097, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
       propertyPath: m_Name
       value: Tower
       objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
       propertyPath: m_StaticEditorFlags
-      value: 4294967295
+      value: 4294967294
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1d63eabc400712643a1b7aff644f3377, type: 3}
