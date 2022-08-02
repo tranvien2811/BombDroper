@@ -37,10 +37,20 @@ public abstract class Bomb : MonoBehaviour
             {
                 item.GetComponent<Enemy>().HeathEnemy -= dameBomb;
             }
+            else
+            {
+                Rigidbody rg = item.GetComponent<Rigidbody>();
+                if (rg != null)
+                {
+                     rg.AddForce((item.transform.position - this.transform.position) * 300f);
+                }
+               
+            }
             if (item.GetComponent<Building>() != null)
             {
                 item.GetComponent<Building>().HeathBuilding -= dameBomb;
             }
+            
         }
 
     }

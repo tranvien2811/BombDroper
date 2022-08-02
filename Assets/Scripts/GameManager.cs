@@ -34,7 +34,7 @@ public class GameManager : MonoBehaviour
 
     public void Explosion(Vector3 pos)
     {
-        Instantiate(exPlosion, pos + Vector3.up * 0.5f, Quaternion.identity);
+        Instantiate(exPlosion, pos + Vector3.up * 2f, Quaternion.identity);
     }   
 
 }
