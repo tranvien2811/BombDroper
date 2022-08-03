@@ -11,12 +11,12 @@ GameObject:
   - component: {fileID: 667524075202971030}
   - component: {fileID: 2152080940625929713}
   - component: {fileID: 2293708932830136}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.006
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &667524075202971030
 Transform:
@@ -92,12 +92,12 @@ GameObject:
   - component: {fileID: 191792588866768988}
   - component: {fileID: 3607817881007703314}
   - component: {fileID: 6149530766083678514}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.013
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &191792588866768988
 Transform:
@@ -173,12 +173,12 @@ GameObject:
   - component: {fileID: 3871196521971591390}
   - component: {fileID: 7227262902339458839}
   - component: {fileID: 7631443868330407643}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.001
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3871196521971591390
 Transform:
@@ -254,12 +254,12 @@ GameObject:
   - component: {fileID: 307876334796393935}
   - component: {fileID: 6123644031920944800}
   - component: {fileID: 6950505675308895499}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.002
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &307876334796393935
 Transform:
@@ -335,12 +335,12 @@ GameObject:
   - component: {fileID: 4289578622698031994}
   - component: {fileID: 3727899580629731232}
   - component: {fileID: 3068490824722597466}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.008
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4289578622698031994
 Transform:
@@ -416,12 +416,12 @@ GameObject:
   - component: {fileID: 8140264648541309936}
   - component: {fileID: 907727266346979263}
   - component: {fileID: 3271396144332962723}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.005
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8140264648541309936
 Transform:
@@ -497,12 +497,12 @@ GameObject:
   - component: {fileID: 4111935696116009431}
   - component: {fileID: 9091753478796815771}
   - component: {fileID: 2334630897227237694}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.010
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4111935696116009431
 Transform:
@@ -578,12 +578,12 @@ GameObject:
   - component: {fileID: 4217526585743220278}
   - component: {fileID: 7453004787281294258}
   - component: {fileID: 1487863877061749678}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.011
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4217526585743220278
 Transform:
@@ -659,12 +659,12 @@ GameObject:
   - component: {fileID: 5946613388475774539}
   - component: {fileID: 6780489965802265693}
   - component: {fileID: 6460680863749918329}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.015
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5946613388475774539
 Transform:
@@ -740,12 +740,12 @@ GameObject:
   - component: {fileID: 7274166159232480872}
   - component: {fileID: 683554384641955815}
   - component: {fileID: 6908257116574234795}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.012
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7274166159232480872
 Transform:
@@ -821,12 +821,12 @@ GameObject:
   - component: {fileID: 4847594345665785478}
   - component: {fileID: 1985728469341614321}
   - component: {fileID: 7634511458450163001}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.014
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4847594345665785478
 Transform:
@@ -902,12 +902,12 @@ GameObject:
   - component: {fileID: 1738850435363782683}
   - component: {fileID: 4849308958221024693}
   - component: {fileID: 490449958101191022}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.007
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1738850435363782683
 Transform:
@@ -983,12 +983,12 @@ GameObject:
   - component: {fileID: 2271194440411941721}
   - component: {fileID: 6102764043132058258}
   - component: {fileID: 2299278885382046528}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.009
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2271194440411941721
 Transform:
@@ -1064,12 +1064,12 @@ GameObject:
   - component: {fileID: 2941292444218681857}
   - component: {fileID: 3750030625078381175}
   - component: {fileID: 5985316326282980684}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2941292444218681857
 Transform:
@@ -1145,12 +1145,12 @@ GameObject:
   - component: {fileID: 1528386101614010490}
   - component: {fileID: 7169720586500487751}
   - component: {fileID: 4752181156166595088}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.003
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1528386101614010490
 Transform:
@@ -1228,12 +1228,13 @@ GameObject:
   - component: {fileID: 7053838876418721232}
   - component: {fileID: -4202115691598862680}
   - component: {fileID: -1993534651401418353}
+  - component: {fileID: -2446601206928560038}
   m_Layer: 8
   m_Name: Ammo Box E
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8191882561364475583
 Transform:
@@ -1343,6 +1344,20 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.1558037, y: 1.2555027, z: 1.2688843}
   m_Center: {x: 0.00000047683716, y: 0.63791454, z: 0.00000011920929}
+--- !u!114 &-2446601206928560038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8855406614608929797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5ee0bea988c5f408fa05efbb16f074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 250
+  rg: {fileID: -4202115691598862680}
 --- !u!1 &9006195133397932741
 GameObject:
   m_ObjectHideFlags: 0
@@ -1354,12 +1369,12 @@ GameObject:
   - component: {fileID: 3913793366379115024}
   - component: {fileID: 2253975810333553101}
   - component: {fileID: 4956142273389390960}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Ammo Box E.004
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
-  m_StaticEditorFlags: 4294967295
+  m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3913793366379115024
 Transform:

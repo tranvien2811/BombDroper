@@ -5,6 +5,17 @@ using Pathfinding;
 
 public class AstarAi : MonoBehaviour
 {
+    public float heath;
+    public float Heath
+    {
+        set
+        {
+            heath = value;
+            this.gameObject.SetActive(heath <= 0 ? false : true);
+        }
+        get { return heath; }
+    }
+
     public Transform targetPosition;
 
     private Seeker seeker;
@@ -169,19 +180,4 @@ public class AstarAi : MonoBehaviour
         seeker = GetComponent<Seeker>();
         seeker.StartPath(transform.position, GameManager.Instance.LastTarget.position, OnPathComplete);
     }
-
-
-    public Air GetHeath()
-    {
-        for (int i = 0; i < airs.Length; i++)
-        {
-            bool checkHeath = (int)typeAir == i ? true : false;
-            if (checkHeath)
-            {
-                return airs[i];
-            }
-        }
-        return null;
-    }
-
 }

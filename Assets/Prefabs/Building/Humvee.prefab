@@ -256,6 +256,7 @@ GameObject:
   - component: {fileID: 7874408674234513180}
   - component: {fileID: 7489590217921688560}
   - component: {fileID: 8508923476649950219}
+  - component: {fileID: 4096432267021436063}
   m_Layer: 0
   m_Name: Humvee
   m_TagString: Untagged
@@ -358,3 +359,17 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 2.722942, y: 2.1142309, z: 5.143251}
   m_Center: {x: 0, y: 1.4383534, z: 0.3058928}
+--- !u!114 &4096432267021436063
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8522913346183173833}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b5ee0bea988c5f408fa05efbb16f074, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  force: 200
+  rg: {fileID: 7489590217921688560}

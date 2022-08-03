@@ -6,27 +6,14 @@ using System;
 
 public abstract class Air : MonoBehaviour
 {
-    public AirData airData;
-  
-    public float heath;
+    public AirData airData;   
 
     public Material mt;
 
     public Material Smokes;
-
-    public float Heath
-    {
-        set
-        {
-            heath = value;
-            this.gameObject.SetActive(heath <= 0 ? false : true);
-        }
-        get { return heath; }
-    }
-
+   
     public virtual void OnEnable()
     {
-        heath = airData.Heath;
         DoColorSmoke();
     }
 

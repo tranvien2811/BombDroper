@@ -223,7 +223,7 @@ ParticleSystem:
       serializedVersion: 2
       minMaxState: 0
       minColor: {r: 1, g: 1, b: 1, a: 1}
-      maxColor: {r: 0.33374867, g: 0.9433962, b: 0.8742107, a: 1}
+      maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
         key0: {r: 1, g: 1, b: 1, a: 1}
@@ -1304,10 +1304,10 @@ ParticleSystem:
       maxColor: {r: 1, g: 1, b: 1, a: 1}
       maxGradient:
         serializedVersion: 2
-        key0: {r: 1, g: 0.67809325, b: 0, a: 0}
-        key1: {r: 1, g: 0.47586203, b: 0, a: 0.46666667}
-        key2: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 0.5019608}
-        key3: {r: 0.007352948, g: 0.007352948, b: 0.007352948, a: 0}
+        key0: {r: 0.09803922, g: 0.972549, b: 0.70980394, a: 0}
+        key1: {r: 0.09803922, g: 0.972549, b: 0.70980394, a: 1}
+        key2: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 1}
+        key3: {r: 0.5808823, g: 0.5808823, b: 0.5808823, a: 0}
         key4: {r: 0.007352948, g: 0.007352948, b: 0.007352948, a: 0}
         key5: {r: 0, g: 0, b: 0, a: 0}
         key6: {r: 0, g: 0, b: 0, a: 0}
@@ -1322,8 +1322,8 @@ ParticleSystem:
         ctime7: 0
         atime0: 0
         atime1: 21010
-        atime2: 34695
-        atime3: 65535
+        atime2: 28527
+        atime3: 64957
         atime4: 65535
         atime5: 65535
         atime6: 0
@@ -5259,7 +5259,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationX:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -5312,7 +5312,7 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotationY:
       serializedVersion: 2
-      minMaxState: 3
+      minMaxState: 0
       scalar: 0
       minScalar: 0
       maxCurve:
@@ -5365,8 +5365,8 @@ ParticleSystem:
         m_RotationOrder: 4
     startRotation:
       serializedVersion: 2
-      minMaxState: 3
-      scalar: 6.283185
+      minMaxState: 0
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2

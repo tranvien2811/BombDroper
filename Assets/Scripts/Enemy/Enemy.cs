@@ -26,9 +26,7 @@ public abstract class Enemy : MonoBehaviour
 
     [SerializeField]
     private ParticleSystem effectGun;    
-
-    
-
+   
     public float HeathEnemy
     {
         set 
@@ -126,9 +124,13 @@ public abstract class Enemy : MonoBehaviour
 
     public void OnEffectShootGun()
     {
-        if (target.GetHeath() != null)
+        if (target != null && target.Heath > 0)
         {
-            target.GetHeath().Heath -= damage;
+            target.Heath -= damage;
+            if (target.Heath <= 0)
+            {
+                target = null;
+            }
         }       
         effectGun.Simulate(0f);
         effectGun.Play();
