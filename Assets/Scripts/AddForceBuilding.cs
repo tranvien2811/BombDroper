@@ -11,6 +11,5 @@ public class AddForceBuilding : MonoBehaviour
     public void AddForceWhenExplosion(Vector3 direction)
     {
         rg.AddForce((this.transform.position - direction) * force);
-
     }
 }

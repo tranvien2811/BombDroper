@@ -127,6 +127,7 @@ public abstract class Enemy : MonoBehaviour
         if (target != null && target.Heath > 0)
         {
             target.Heath -= damage;
+            target.HitColor();
             if (target.Heath <= 0)
             {
                 target = null;

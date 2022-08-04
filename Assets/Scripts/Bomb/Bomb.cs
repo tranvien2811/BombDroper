@@ -45,6 +45,10 @@ public abstract class Bomb : MonoBehaviour
             {
                 item.GetComponent<AddForceBuilding>().AddForceWhenExplosion(this.transform.position);
             }
+            if (item.GetComponent<Barrel>() != null)
+            {
+                item.GetComponent<Barrel>().timeExplosion();
+            }
         }
 
     }

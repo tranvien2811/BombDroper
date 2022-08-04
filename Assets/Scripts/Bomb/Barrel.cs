@@ -10,9 +10,16 @@ public class Barrel : MonoBehaviour
 
     public float damage;
 
-    public void OnExPlosion()
+    public void timeExplosion()
     {
+        StartCoroutine(OnExPlosion());        
+    }
+
+    public IEnumerator OnExPlosion()
+    {
+        yield return new WaitForSeconds(1f);
         Collider[] col = Physics.OverlapSphere(this.transform.position, radiusExplosion, layerMask);
+        GameManager.Instance.Explosion(this.transform.position);
         for (int i = 0; i < col.Length; i++)
         {
             Enemy _en = col[i].GetComponent<Enemy>();
@@ -21,5 +28,6 @@ public class Barrel : MonoBehaviour
                 _en.HeathEnemy -= damage;
             }
         }
+        this.gameObject.SetActive(false);
     }
 }

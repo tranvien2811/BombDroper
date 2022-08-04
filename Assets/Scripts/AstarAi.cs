@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Pathfinding;
+using DG.Tweening;
 
 public class AstarAi : MonoBehaviour
 {
@@ -44,6 +45,8 @@ public class AstarAi : MonoBehaviour
 
     public Transform posDragBomb;
 
+    public Material mtColorAir;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -54,7 +57,12 @@ public class AstarAi : MonoBehaviour
     {
         for (int i = 0; i < airs.Length; i++)
         {
-            airs[i].gameObject.SetActive((int)typeAir == i ? true : false);
+            bool check = (int)typeAir == i ? true : false;
+            airs[i].gameObject.SetActive(check);
+            if (check)
+            {
+                mtColorAir = airs[i].GetComponent<MeshRenderer>().material;
+            }
         }
     }
 
@@ -69,11 +77,23 @@ public class AstarAi : MonoBehaviour
     public void SetUpMoveAi()
     {
         for (int i = 0; i < airs.Length; i++)
-        {           
-            airs[i].gameObject.SetActive((int)typeAir == i ? true : false);
+        {
+            bool check = (int)typeAir == i ? true : false;
+            airs[i].gameObject.SetActive(check);
+            if (check)
+            {
+                mtColorAir = airs[i].GetComponent<MeshRenderer>().sharedMaterial;
+            }
         }     
     }
 
+    public void HitColor()
+    {
+        mtColorAir.DOColor(new Color(1f, 0.5f, 0.5f), 0.25f).OnComplete(() =>
+        {
+            mtColorAir.DOColor(Color.white, 0.25f);
+        });
+    }
 
     private void OnDisable()
     {
