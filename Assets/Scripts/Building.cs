@@ -7,14 +7,26 @@ public class Building : MonoBehaviour
     [SerializeField]
     private float heathBuilding;
 
+    private float MaxHeath;
+
+    [SerializeField]
+    private HeathControll heathControll;
+
     public float HeathBuilding
     {
         set 
         { 
             heathBuilding = value;
-            this.gameObject.SetActive(heathBuilding <= 0 ? false : true);
+            bool check = heathBuilding <= 0 ? false : true;
+            heathControll.gameObject.SetActive(check);
+            heathControll.ShowHeath(heathBuilding / MaxHeath);
+            this.gameObject.SetActive(check);
         }
         get { return heathBuilding; }
     }
 
+    private void Start()
+    {
+        MaxHeath = heathBuilding;
+    }
 }

@@ -12,7 +12,16 @@ public class AstarAi : MonoBehaviour
         set
         {
             heath = value;
-            this.gameObject.SetActive(heath <= 0 ? false : true);
+            HitColor();
+            bool check = heath <= 0 ? false : true;
+           // this.gameObject.SetActive(check);
+            if (!check)
+            {
+                GameManager.Instance.LastTarget = this.transform;
+                AirPos.DOLocalRotate(Vector3.right * 75f, 0.25f);
+                rg.isKinematic = false;
+                col.enabled = true;
+            }
         }
         get { return heath; }
     }
@@ -47,6 +56,12 @@ public class AstarAi : MonoBehaviour
 
     public Material mtColorAir;
 
+    public Rigidbody rg;
+
+    public Collider col;
+
+    public Transform AirPos;
+
     private void Start()
     {
         controller = GetComponent<CharacterController>();
@@ -61,7 +76,10 @@ public class AstarAi : MonoBehaviour
             airs[i].gameObject.SetActive(check);
             if (check)
             {
+                AirPos = airs[i].transform;
                 mtColorAir = airs[i].GetComponent<MeshRenderer>().material;
+                rg = airs[i].GetComponent<Rigidbody>();
+                col = airs[i].GetComponent<Collider>();
             }
         }
     }
@@ -83,11 +101,13 @@ public class AstarAi : MonoBehaviour
             if (check)
             {
                 mtColorAir = airs[i].GetComponent<MeshRenderer>().sharedMaterial;
+                rg = airs[i].GetComponent<Rigidbody>();
+                col = airs[i].GetComponent<Collider>();
             }
         }     
     }
 
-    public void HitColor()
+    private void HitColor()
     {
         mtColorAir.DOColor(new Color(1f, 0.5f, 0.5f), 0.25f).OnComplete(() =>
         {
@@ -113,7 +133,11 @@ public class AstarAi : MonoBehaviour
     }
 
     public void Update()
-    {       
+    {
+        if (Heath <= 0)
+        {
+            return;
+        }
         if (path == null)
         {
             // We have no path to follow yet, so don't do anything
@@ -189,6 +213,10 @@ public class AstarAi : MonoBehaviour
         if (CustomClass.isBombDrag == 1)
         {
             Instantiate(Bomb, posDragBomb.position, Quaternion.identity);
+            if (Heath <= 0)
+            {
+                return;
+            }
             Invoke("AirGoHome", 0.5f);            
         }
         // when aircraf move finish drop bomb        
